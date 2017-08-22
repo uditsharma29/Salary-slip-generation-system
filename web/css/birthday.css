@@ -1,0 +1,264 @@
+
+@font-face{
+    font-family:"TheFont";
+    src: url("../fonts/par.otf");
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+/*header section start*/
+
+header h1{
+    position: absolute;
+    font-family:"TheFont","Century Gothic";
+    font-size: 6em;
+    bottom: 60%;
+    left: 12%;
+    z-index: 12;
+    color: azure;
+}
+
+#scene{
+    position: absolute;
+    font-family:"TheFont","Century Gothic";
+    bottom: 60%;
+    left: 12%;
+    z-index: 12;
+    color: azure;
+}
+
+#scene2{
+    position: absolute;
+    left: 40%;
+    bottom: 20%;
+}
+
+header{
+    position: relative;
+    height: 100vh;
+    min-width: 100%;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+@media screen and (max-width: 790px) {
+    header {
+    }
+    
+    #scene{
+    position: absolute;
+    font-family:"TheFont","Century Gothic";
+    bottom: 30%;
+    left: 10%;
+    z-index: 12;
+    color: azure;
+}
+    
+    #scene2{
+    position: absolute;
+    left: 30%;
+    bottom: 20%;
+}
+
+}
+
+
+/*header section ends here*/
+
+/*age section starts here */
+section#age{
+    height: 100vh;
+    width: 100%;
+    background-color: yellow;
+    background-image: url(../pics/unnamed.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 10%;
+    display: block;
+}
+
+#age img{
+    position: absolute;
+    bottom: 3%;
+    right: 3%;
+}
+
+#age h1{
+    font-size: 5em;
+    font-family: "TheFont";
+    color: darkorchid;
+    font-weight: bold;
+}
+
+#age #time{
+    font-size: 7em;
+}
+
+#scene3{
+    position: absolute;
+    right: 10%;
+    bottom: 8%;
+}
+
+
+#scene3 img{
+    -ms-transform: rotate(10deg); /* IE 9 */
+    -webkit-transform: rotate(10deg); /* Chrome, Safari, Opera */
+    transform: rotate(10deg);
+}
+
+
+/*age section ends here */
+
+
+/*wishes section start here */
+section#wishes{
+padding-top: 10vh;
+display: block;
+}
+
+#wishes h1{
+    font-family: "TheFont";
+    font-size: 5em;
+    text-align: center;
+}
+
+.fig_setup{
+    position: relative;
+}
+
+.fig_setup img{
+    padding: 25px;
+    padding-bottom:60px; 
+    background-color: blanchedalmond;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fig_setup figcaption{
+    font-family: cursive;
+    position: absolute;
+    bottom: 20px;
+    left: 155px;
+}
+
+.rotate_left{
+    transform: rotate(-20deg);
+}
+
+.rotate_right{
+    transform: rotate(20deg);
+}
+
+
+
+/*wishes section ends here*/
+
+.bgmg{
+    height: 50vh;
+    background-image: url(../pics/cover.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bgmg h1{
+    padding-top: 10%;
+    font-family: "TheFont";
+    color: floralwhite;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+}
+
+
+
+#bw h1{
+    color: crimson;
+    font-family: "TheFont";
+    font-size: 5em;
+    text-align: center;
+    padding-top:10%;
+    padding-bottom: 2%;
+}
+
+hr{
+    padding: 2px 5px;
+    background-color: cadetblue;
+    text-align: center;
+    width: 20px;
+}
+
+#bw article{
+    font-family: "Century Gothic";
+    position: relative;
+    margin: auto;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: 8px solid crimson;
+    margin-bottom: 50px;
+    background-size:contain;
+    background-attachment:fixed;
+    color: cornsilk;
+}
+
+#bw article p{
+    text-align: center;
+    padding-top: 70px;
+    padding-left: 55px;
+    padding-right:55px;
+}
+
+#bw h2{
+    position: absolute;
+    text-align: center;
+    bottom: 40px;
+    left: 80px;
+}
+
+
+#art1{
+    background-image: url(../pics/mapa.jpg);
+}
+#art2{
+    background-image: url(../pics/chacha.jpg);
+}
+#art3{
+    background-image: url(../pics/chachi.jpg);
+}
+#art4{
+    background-image: url(../pics/shubh.jpg);
+}
+#art5{
+    background-image: url(../pics/shubhee.jpg);
+}
+#art6{
+    background-image: url(../pics/shubham.jpg);
+}
+
+
+footer{
+    position: relative;
+    height: 100vh;
+    background-image: url(../pics/finalimg.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-attachment: fixed;
+}
+
+footer h1{
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    font-family: "TheFont";
+    line-height: 2em;
+    font-size: 1em;
+    padding: 20px;
+    bottom: 0;
+    right: 0;
+}
